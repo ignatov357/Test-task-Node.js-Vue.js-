@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.css">
+		<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+		<link href="https://cdn.jsdelivr.net/npm/vue-snotify@latest/styles/material.css" rel="stylesheet" id="bootstrap-css">
+		<link rel="stylesheet" href="/css/style.css">
+		<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+		<script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/vee-validate@latest/dist/vee-validate.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/vue-snotify@latest/vue-snotify.min.js"></script>
+		<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+		<script src="/js/utils.js"></script>
+	</head>
+	<body debug>
+		<div id="app">
+			<vue-snotify></vue-snotify>
+			<router-view class="view"></router-view>
+		</div>
+
+		<script src="/js/index.js"></script>
+	</body>
+</html>
